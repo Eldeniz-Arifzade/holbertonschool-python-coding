@@ -10,7 +10,7 @@ class Square():
     It will validate the size and calculate the area"""
     def __init__(self, size=0):
         """Initialize instance with size"""
-        self.size = size
+        self.__size = size
 
     @property
     def size(self, size):
