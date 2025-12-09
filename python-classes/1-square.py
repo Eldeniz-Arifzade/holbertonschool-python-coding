@@ -8,8 +8,8 @@ class Square():
     """This class will have a private + integer size attr"""
     def __init__(self, size=0):
         """Initialize instance with + integer size"""
-        if size < 0:
-            raise ValueError('size must be >= 0')
-        elif not isinstance(size, int):
+        if not isinstance(size, int):
             raise TypeError('size must be an integer')
+        elif size < 0:
+            raise ValueError('size must be >= 0')
         self.__size = size
