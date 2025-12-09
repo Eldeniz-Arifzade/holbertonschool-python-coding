@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-'''This model will define a square class,
- which will have a private size attribute'''
+'''This model will define a square class
+
+ Square class will have a private size attribute'''
+
 
 class Square():
     '''This class will define private instance attribute'''
